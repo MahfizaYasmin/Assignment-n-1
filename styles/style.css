@@ -17,6 +17,23 @@ body {
     margin-left: 150px;
     margin-right: 150px;
 }
+.card {
+  border-radius: 16px;
+  padding: 40px;
+}
+.card-taitle{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.card-taitle h3{
+  font-size: 24px;
+}
+.card a{
+  color: black;
+}
+.card p{
+  font-size: 16px;
+}
 
   /* nav style */
   nav{
@@ -120,6 +137,28 @@ body {
   }
   .content {
     border-radius: 16px;
+  }
+
+  /*current target style*/
+  .target-container {
+    margin-top: 100px;
+  }
+  .target {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .current-target {
+    display: flex;
+    gap: 24px;
+  }
+  .html-container{
+    background-color: #f7d2c9;
+  }
+  .css-container{
+    background-color: #b5ccf8;
+  }
+  .js-container{
+    background-color: #f2ebbe;
   }
 
   /* support style */
