@@ -46,3 +46,52 @@
     background-color: black;
     color: white;
   }
+
+  /* developer style */
+  .development {
+    margin: 70px 170px;
+    padding: 60px 70px;
+    background-color: #ADC8F7;
+    border-radius: 16px;
+  }
+  .development-container {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .development-title{
+    margin-top: 0px;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  /* coding style */
+  .coding {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px;
+  }
+  .coding-container {
+    width: 477px;
+  }
+  .coding-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .coding-subtitle {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .btn-learn {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .system {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
